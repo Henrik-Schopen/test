@@ -1,5 +1,3 @@
-
-
 def create_list(start, length):
     x = []
 

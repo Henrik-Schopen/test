@@ -1,11 +1,14 @@
 
 
-def create_list(lenght):
-  x = []
-  count = 0
-  while len(x) <= lenght:
-    x.append(i)
-    i += 1
-  return x
-    
-create_list(20) #This creates a list going from 0 to 20
+def create_list(start, length):
+    x = []
+
+    count = start
+    while len(x) + start <= length:
+        x.append(count)
+        count += 1
+
+    print(x)
+
+
+create_list(5, 20) #This list starts at 5 and ends at 20
